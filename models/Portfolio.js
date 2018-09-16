@@ -4,6 +4,6 @@ const
         body: String
     })
 
-    const Portfolio = mongoose.model('Portfolio', portfolioSchema)
+const Portfolio = mongoose.model('Portfolio', portfolioSchema)
 
-    module.exports = Portfolio
+module.exports = Portfolio

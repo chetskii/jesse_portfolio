@@ -5,10 +5,10 @@ const
     logger = require('morgan'),
     app = express(),
     PORT = 3000,
-    mongoose = require('mongoose'),
+    mongoose = require('mongoose')
     portfolioRouter = require('./routes/router.js')
 
-mongoose.connect(process.env.MONGODB_URI, (err) => {
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true }, (err) => {
     console.log(err || "Connected to MongoDB.")
 })
 
