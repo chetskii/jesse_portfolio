@@ -5,4 +5,4 @@ const
 
 portfolioRouter.get('/', portfolioCtrl.index)
 
-module.exports = portfolioRouter
+module.exports = portfolioRouter;
