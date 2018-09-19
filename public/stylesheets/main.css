@@ -1,3 +1,11 @@
 html {
     background-color: dodgerblue
 }
+
+.main-header-text {
+    text-align: center;
+}
+
+.container-header {
+    width: 100%;
+}
